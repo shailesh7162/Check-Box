@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/cb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Oppo - 10000"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/cb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vivo - 12000"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/cb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mi - 15000"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/cb4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Samsung - 14000"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="Total :-"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/totalTxtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/oppoCb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Oppo"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/vivoCb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vivo"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/miCb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mi"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/samsungCb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Samsung"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/phonesTxtv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
